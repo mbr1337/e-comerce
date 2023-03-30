@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Dice Roll</string>
+
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!--  Settings Activity  -->
+    <string name="close">Zamknij</string>
+    <string name="update">Zaktualizuj</string>
+    <string name="change_photo">Zmień zdjęcie</string>
+    <string name="phone_number">Numer telefonu</string>
+    <string name="fist_and_last_name">Imię i nazwisko</string>
+    <string name="address">Adres</string>
+    <string name="settings_hint">W tym miejscu możesz edytować swoje dane. By zmienić zdjęcie, naciśnij na nie.</string>
+
+    <!--  Register Activity  -->
+    <string name="username">Nazwa użytkownika</string>
+    <string name="password">Hasło</string>
+    <string name="create_account">Utwórz konto</string>
+    <!--  Main Activity  -->
+    <string name="login_prompt">Masz już konto? Zaloguj się</string>
+
+    <!--  Login Activity  -->
+    <string name="login">Zaloguj się</string>
+    <string name="login_as_admin">Zaloguj się jako admin</string>
+    <string name="admin">Jestem administratorem</string>
+    <string name="remember_me">Zapamiętaj mnie</string>
+    <string name="login_as_user">Zwykły użytkownik</string>
+
+    <!--  Cart Activity  -->
+    <string name="next">Dalej</string>
+    <string name="cost">Koszt</string>
+    <string name="prompt">Twoje zamówienie zostało przyjęte do realizacji</string>
+
+    <!--  Cart Items Layout  -->
+    <string name="quantity">Ilość</string>
+
+    <!--  Product Details Activity  -->
+    <string name="product_name">Nazwa towaru</string>
+    <string name="description">Opis</string>
+    <string name="price">Cena</string>
+    <string name="add_to_cart">Dodaj do koszyka</string>
+
+    <!--  Confirm Final Order Activity  -->
+    <string name="order_details">Proszę podać dane do dostawy</string>
+    <string name="city">Miasto</string>
+    <string name="confirm">Potwierdź</string>
+
+    <!--  Admin New Orders Activity  -->
+    <string name="new_orders">Nowe zamówienia</string>
+
+    <!--  Admin Category Activity  -->
+    <string name="logout">Wyloguj</string>
+    <string name="check_orders">Sprawdź zamówienia</string>
+
+    <!--  Admin Add New Product Activity  -->
+    <string name="add_product">Dodaj towar</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#494A4E"
+    android:backgroundTintMode="src_atop"
+    tools:context=".activity.SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:onClick="changePhoto"
+            android:src="@drawable/account_circle_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="130dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:includeFontPadding="false"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:text="@string/settings_hint"
+            android:textAlignment="center"
+            android:textColor="#E1E6E8"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2">
+
+        <EditText
+            android:id="@+id/settings_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/phone_number"
+            android:padding="10dp"
+            android:textColorHint="#E1E6E8" />
+
+        <EditText
+            android:id="@+id/settings_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/fist_and_last_name"
+            android:padding="10dp"
+            android:textColorHint="#E1E6E8" />
+
+        <EditText
+            android:id="@+id/user_address"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:hint="@string/address"
+            android:padding="10dp"
+            android:textColorHint="#E1E6E8" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#E1E6E8"
+            android:onClick="update"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textColor="#201F1F"
+            android:textSize="18sp"
+            app:strokeColor="#201F1F"
+            app:strokeWidth="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#201F1F"
+            android:onClick="close"
+            android:text="@string/close"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:strokeColor="#E1E6E8"
+            app:strokeWidth="1dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

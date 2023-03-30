@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "108717836420",
+    "project_id": "sklep-internetowy-psmii",
+    "storage_bucket": "sklep-internetowy-psmii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108717836420:android:fac90e40b7ce816981dad1",
+        "android_client_info": {
+          "package_name": "com.sklep.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108717836420-oqrd1gjqo8n5unafoelf7lc87lvdi773.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe1OGhXcB4HI-1UFswfquEcnzt2fVjCMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108717836420-oqrd1gjqo8n5unafoelf7lc87lvdi773.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
